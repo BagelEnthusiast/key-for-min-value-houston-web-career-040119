@@ -15,12 +15,7 @@ def key_for_min_value(name_hash)
   name_of_min
 end
     
-  
-  
-     
- # if name_hash.length == 0 
-   # nil 
-  
- # else 
+
+
 
 puts key_for_min_value({})
