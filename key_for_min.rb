@@ -6,12 +6,13 @@ def key_for_min_value(name_hash)
   name_of_min = nil 
   name_hash.each do |name, number|
     
-    if minNum.nil? || number < minNum
+    if min_num.nil? || number < min_numum
       minNum = number
       name_of_min = name 
     end
-  end
   
+  end
+  name_of_min
 end
     
   
